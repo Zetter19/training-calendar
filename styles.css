@@ -1,0 +1,61 @@
+/* Uppdaterad CSS med horisontell layout för veckosummering */
+.page-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.week {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.days {
+    display: flex;
+}
+
+.day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.day-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.task-checkbox {
+    margin-right: 10px;
+}
+
+/* Summering CSS */
+.summary-week {
+    margin-bottom: 20px;
+}
+
+.summary-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.summary-tasks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.summary-tasks div {
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
